@@ -1,0 +1,114 @@
+.motivational-section {
+  margin-top: 50px;
+  padding: 45px;
+  background-color: #1f1a30; /* Darker background for the section */
+  border-radius: 18px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+  max-width: 900px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.motivational-section h2 {
+  color: #ff6f61; /* Bright pink-red for emphasis, matching Unlust logo */
+  font-size: 2.7em;
+  margin-bottom: 28px;
+}
+
+.motivational-section blockquote {
+  font-style: italic;
+  font-size: 1.6em;
+  color: #bb86fc; /* Light purple for quotes */
+  margin: 25px 0;
+  padding: 0 25px;
+  border-left: 6px solid #b39ddb; /* Lighter purple border */
+}
+
+.motivational-section cite {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.0em;
+  color: #9c27b0; /* Consistent purple for cite */
+}
+
+.motivational-section p {
+  font-size: 1.2em;
+  color: #e0e0e0; /* Light grey for readability */
+  margin-bottom: 35px;
+}
+
+.motivational-section h3 {
+  color: #ff6f61; /* Bright pink-red */
+  font-size: 2.1em;
+  margin-bottom: 20px;
+}
+
+.motivational-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.motivational-section li {
+  margin-bottom: 12px;
+}
+
+.motivational-section a {
+  color: #82b1ff; /* Lighter blue for action-oriented links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.motivational-section a:hover {
+  color: #448aff;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .motivational-section {
+    padding: 30px;
+    margin-top: 40px;
+  }
+
+  .motivational-section h2 {
+    font-size: 2.2em;
+  }
+
+  .motivational-section blockquote {
+    font-size: 1.4em;
+    padding: 0 15px;
+  }
+
+  .motivational-section p {
+    font-size: 1.1em;
+  }
+
+  .motivational-section h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .motivational-section {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .motivational-section h2 {
+    font-size: 1.8em;
+  }
+
+  .motivational-section blockquote {
+    font-size: 1.2em;
+    padding: 0 10px;
+  }
+
+  .motivational-section p {
+    font-size: 1em;
+  }
+
+  .motivational-section h3 {
+    font-size: 1.5em;
+  }
+}

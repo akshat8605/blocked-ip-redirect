@@ -1,0 +1,133 @@
+.help-me-now {
+  margin-top: 50px;
+  padding: 45px;
+  background-color: #1f1a30; /* Darker background for the section */
+  border-radius: 18px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+  max-width: 900px;
+  width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.help-me-now h2 {
+  color: #ff6f61; /* Bright pink-red for consistency */
+  font-size: 2.3em;
+  margin-bottom: 28px;
+}
+
+.help-me-now .buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.help-me-now button {
+  background-color: #be001f; /* Darker red for buttons */
+  color: white;
+  padding: 18px 38px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.help-me-now button:hover {
+  background-color: #880e4f;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.breathing-content, .distraction-content {
+  margin-top: 35px;
+  padding: 30px;
+  background-color: #2a1f3a; /* Darker purple for supportive content */
+  border-left: 6px solid #bb86fc; /* Lighter purple border */
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.breathing-content h3, .distraction-content h3 {
+  color: #bb86fc; /* Light purple for headings */
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.breathing-content p, .distraction-content p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+  color: #e0e0e0; /* Light grey for text */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .help-me-now {
+    padding: 30px;
+    margin-top: 40px;
+  }
+
+  .help-me-now h2 {
+    font-size: 2em;
+  }
+
+  .help-me-now .buttons-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .help-me-now button {
+    padding: 16px 30px;
+    font-size: 1.1em;
+  }
+
+  .breathing-content, .distraction-content {
+    padding: 25px;
+    margin-top: 30px;
+  }
+
+  .breathing-content h3, .distraction-content h3 {
+    font-size: 1.8em;
+  }
+
+  .breathing-content p, .distraction-content p {
+    font-size: 1.05em;
+  }
+}
+
+@media (max-width: 480px) {
+  .help-me-now {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .help-me-now h2 {
+    font-size: 1.8em;
+  }
+
+  .help-me-now .buttons-container {
+    gap: 10px;
+  }
+
+  .help-me-now button {
+    padding: 14px 25px;
+    font-size: 1em;
+  }
+
+  .breathing-content, .distraction-content {
+    padding: 20px;
+    margin-top: 25px;
+  }
+
+  .breathing-content h3, .distraction-content h3 {
+    font-size: 1.6em;
+  }
+
+  .breathing-content p, .distraction-content p {
+    font-size: 0.95em;
+  }
+}
